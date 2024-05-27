@@ -5,6 +5,7 @@ body {
 header {
   background-color: #0b1c51;
   margin-bottom: 40px;
+  flex-direction: row;
 }
 
 header h1 {
@@ -42,6 +43,7 @@ header nav ul li:last-child a {
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
+    flex-direction: column;
   }
 
   header h1 {
